@@ -46,7 +46,7 @@ class Bucket
     ];
     private static $streamWrapperProtocol = 'gridfs';
 
-    private $collectionWrapper;
+    public $collectionWrapper;
     private $databaseName;
     private $manager;
     private $bucketName;
